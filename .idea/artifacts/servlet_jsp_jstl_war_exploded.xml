@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="servlet-jsp-jstl:war exploded">
+    <output-path>$PROJECT_DIR$/target/servlet-jsp-jstl</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="servlet-jsp-jstl/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet-jsp-jstl" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
